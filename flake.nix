@@ -36,7 +36,7 @@
                   file = ./rust-toolchain.toml;
                   # Replace `fakeSha256` with the hash string produced by Nix
                   # when it tries to build this for the first time.
-                  sha256 = "sha256-7QfkHty6hSrgNM0fspycYkRcB82eEqYa4CoAJ9qA3tU=";
+                  sha256 = "sha256-3jVIIf5XPnUU1CRaTyAiO0XHVbJl12MSx3eucTXCjtE=";
                 };
 
                 rustfmt = final.fenix.latest.rustfmt;
